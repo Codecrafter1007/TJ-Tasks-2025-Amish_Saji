@@ -1,0 +1,17 @@
+DEBUGGING PROMPTS
+
+PROMPT 3
+please make the button bright and the font dark shade
+
+PROMPT 4
+please make the font a bright color
+
+PROMPT 10
+my account is not showing up in supabase
+please check this
+and can you please sync the database
+
+PROMPT 11
+Make the “Continue Shopping” button always visible with a clear base color and a high-contrast hover color; font must be readable in both states.
+Fix the Sign In/Sign Up page—make the username and password text clearly visible by updating their font.
+

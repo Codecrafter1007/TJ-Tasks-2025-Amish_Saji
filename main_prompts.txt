@@ -1,0 +1,143 @@
+MAIN PROMPTS
+
+PROMPT 1
+Build an app a complete e-commerce product page app which sells products (merchandise) specifically from the anime one piece.
+
+a user should be able to:
+-view products listed in the website
+-can add products to cart
+
+i'll be using open ai for api and supabase on top of lovable
+
+please first make only the landing page and then we'll move from there
+
+PROMPT 2
+-please change the page them to more anime oriented
+following are the images you can use in the page
+
+-please use the first attachment as the logo of the app
+
+-use this color palette for the site
+2F76DC
+B9EFF8
+FBC920
+E62C39
+2E333F
+DFC18A
+
+-use the other two image where you think it will fit, the third image might be suitable for background
+
+-use the last three attachments as a template for the design of the site.
+
+-use dummy images where necessary, for eg in product card
+
+PROMPT 5
+-please change the following things:
+-change the exclusive apparel section to katana. remove the clothing section from the site and add katana section instead
+replace the logo image with the second last attachment, the background image with third last attachment, use third attachment in the place of premium figures and replace the zoro three sword style card with the third attachment , for the first order card use the fifth attachment, replace the third order card's image with second attachment, use the fifth attachment for the fourth order card, use last attachment for the exclusive apparel (katana) background image.
+
+-change the top div text to "🌊 FREE SHIPPING ON INDIA ORDERS +$35 🌊"
+
+-please change the default currency to rupee wherever the amount is in dollar.
+
+-remove accessories section from the top bar
+
+-change the font-style to a more pirate like for the brand name
+
+PROMPT 6
+great! now can you also make the katana section like you have made the figures section, and also please make the buttons functionable.
+
+following are the things that each button will do:
+-new: will open an another page filled with 2 products that has a label "NEW" on their product card.
+- popular: will open an another page filled with 2 products that has a label "HOT" on their product card.
+-figures: will open another page containing all figurine products.
+-Katana: will open another page containing all katana products.
+-sale: will open another page containing products with discounted price on their price section.
+-shop now: will just take the user to straw hat best sellers section of the landing page.
+-premium figures: will open another page listing all figurine products available in the page.
+- katana collection: will open another page listing all katana products available in the page
+-katana: will switch to showing 4 katana products similar to the figures section.
+
+please make sure all the new pages follow the same theme as the landing page and use the same fonts used in the landing page.
+use dummy images when making new product cards, make sure the product names relate to their respective category katana or figures.
+
+also please change the top most text to "🌊 FREE SHIPPING ON FIRST ORDER 🌊".
+
+PROMPT 7
+Please update my website as follows:
+
+Each product card should display its own description and include an “Add to Cart” button. The button must function so that clicking it adds that specific product to the cart.
+
+Every product card must display its product image, description, and a functional “Add to Cart” button.
+
+All product listings must remain consistent across every page. The products visible on the landing page should be exactly the same as the products listed on all other product-related pages, including any additional or newly added products.
+
+For all products (both existing and newly added), always use the provided product images. Do not replace or remove old product images when adding new products; ensure images are updated only if a new image is specifically provided for that product.
+
+Please do not change any existing content, descriptions, or product details except as specified above.
+
+Always use the original provided product images—do not ignore or remove previous ones.
+
+Add a complete “Add to Cart” system to my website:
+
+Each product card should have an “Add to Cart” button. When clicked, it should add that product to the user’s cart.
+
+Create a dedicated Cart page that displays all items added to the cart, lets users update quantities or remove products, and shows a total price.
+
+Use dummy data or temporary front-end storage for now; you do NOT need to connect to any backend/database.
+
+The design, layout, fonts, and style of the Cart page must match or closely resemble the landing page to ensure a consistent look and user experience across the site.
+
+Please maintain the same color scheme, typography, and spacing as used on the landing page.
+
+Make sure all interactive elements (buttons, links, etc.) on the Cart page look and feel like those on the landing page.
+
+Do not change any existing product descriptions or images except to add the required cart features.
+
+PROMPT 8
+Please add authentication (sign-in/sign-up) to my website:
+
+The user must be prompted to sign in (or sign up) when:
+
+They click the “Get Started” button anywhere on the site.
+
+They click the profile icon in the top navigation bar.
+
+They proceed to checkout on the Cart page (sign-in is required before completing checkout).
+
+The Sign In (and Sign Up) page(s) should use the same design, typography, color scheme, and layout as the landing page for a consistent user experience.
+
+After signing in, users should be able to access their account/profile features and complete checkout.
+
+If a user is not signed in and tries to perform the actions above, redirect them to the Sign In page first.
+
+Please do not change or remove any existing design or functionality except as needed to add authentication.
+
+PROMPT 9
+Connect the authentication system on my website to Supabase.
+Use Supabase for all sign-in, sign-up, and user management features.
+Do not use any built-in or default Lovable backend—replace it completely with Supabase integration.
+
+PROMPT 12
+Create a dummy checkout page and a confirmation page for my site.
+Both pages should use the same theme and typography as the landing page.
+The checkout page must use product and cart data from Lovable Cloud, synced with the existing cart system.
+The confirmation page should also display order details using this data.
+
+PROMPT 13
+When a user clicks the account icon, direct them to a dedicated account page after signing in, instead of returning to the authentication page.
+Once signed in, users should stay logged in until they manually log out.
+Create an account page that displays all user details and order history.
+Apply the same theme and typography as the landing page, and use the previously provided image where suitable for design.
+
+PROMPT 14
+For all products with the same name, make them count as a single item in the cart no matter which page they’re added from. Also, always show the same product image for them everywhere on the site.
+
+PROMPT 15
+Update product images so that, for any image I provide, all products with the matching name (across both figures and katana) have their images changed to the new one.
+Also, change the product name and description for “Zoro Three Sword Style” to “Kikoku Law’s Katana” with a matching new description.
+Use each attached image to update the product with the same name.
+
+PROMPT 16
+If the user is logged in and clicks the “Start Adventure” button, redirect them to a simple page prompting them to subscribe to a newsletter. The new page should match the theme and typography of the landing page.
+
