@@ -20,7 +20,7 @@ Welcome to my end-to-end **One Piece Merchandise E-Commerce prototype**! This pr
 - **`agentic_MCP_explanation.txt`** – Short explanation of how I used agentic AI and multi-component prompts 🧠
 
 ## 🔗 Live Project
-See my deployed site here: (project_url.txt)
+See my deployed site here: https://grandline-merch-shop.lovable.app/
 
 ## ℹ️ Project Summary
 I built and deployed this shop by breaking major features into small, simple prompts so the AI builder could understand and implement them easily. Debugging/fixes are separated so it’s clear which prompts make features and which just fix small issues. Most of the backend runs on Lovable Cloud, so you’ll see mostly frontend and workflow logic in the code folder. My site’s public—so feel free to try it out!
