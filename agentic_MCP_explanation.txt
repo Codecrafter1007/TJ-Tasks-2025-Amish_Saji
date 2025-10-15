@@ -1,0 +1,10 @@
+
+In my e-commerce project, I used agentic AI and something called multi-component prompts (MCPs) to work more efficiently and finish tasks faster.
+
+First, I split the whole assignment into smaller, manageable prompts. Each main feature, like the user interface, product listing, cart, and checkout, got its own prompt. This helped me focus on one thing at a time and it made troubleshooting much easier if something didn't work right away.
+
+Agentic AI on Lovable was really useful because if my prompts were clear, it would do exactly what I asked. To get the most out of my credits and reduce repeated work, I sometimes combined related changes into one prompt—that's what MCPs are for. For example, if I needed to update product images and fix product labels at once, I did it together instead of separately. This reduced the number of prompts and made sure everything stayed consistent across the whole site.
+
+I also kept feature-building prompts separate from debugging prompts. This way, it was easier to keep track of progress and know which prompts were about building versus just fixing something small.
+
+Overall, by planning how I wrote and grouped my prompts, I finished the project within the prompt and credit limits, avoided confusion, and made sure every new feature and fix worked well with the rest of the app.
