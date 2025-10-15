@@ -10,7 +10,7 @@ Anime-themed e-commerce app built with Lovable AI’s website builder as a perso
 ## Repository
 
 Find the source code here:
-https://github.com/Codecrafter1007/grandline-merch-shop-02923
+[https://github.com/Codecrafter1007/grandline-merch-shop-02923](https://github.com/Codecrafter1007/grandline-merch-shop-02923.git)
 
 ## Quick Start
 
